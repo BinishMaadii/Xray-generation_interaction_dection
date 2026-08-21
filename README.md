@@ -28,5 +28,4 @@ The pipeline processes public real-world experimental data (CC BY 4.0):
   pip install numpy matplotlib
 
 
-│           └── ... (56 slab combination subfolders)
-└── figures/   (generated automatically at runtime)
+
