@@ -26,3 +26,20 @@ The pipeline processes public real-world experimental data (CC BY 4.0):
 * Required packages:
   ```bash
   pip install numpy matplotlib
+
+
+.
+├── main.py
+├── data/
+│   ├── CalibrationTable/
+│   │   ├── air_table_low.raw
+│   │   ├── air_table_high.raw
+│   │   └── air_table_total.raw
+│   └── CalibrationPhantomData/
+│       └── PMMA_AL_slabs/
+│           ├── AcqPara.mat
+│           ├── PMMA_<m>_AL_<n>/
+│           │   ├── proj_high.raw
+│           │   └── proj_total.raw
+│           └── ... (56 slab combination subfolders)
+└── figures/   (generated automatically at runtime)
