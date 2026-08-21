@@ -27,8 +27,8 @@ The pipeline processes public real-world experimental data (CC BY 4.0):
   ```bash
   pip install numpy matplotlib
 
+-------
 
-.
 ├── main.py
 ├── data/
 │   ├── CalibrationTable/
